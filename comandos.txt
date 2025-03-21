@@ -1,0 +1,17 @@
+npm init -y  -> package.json
+
+npm i express sqlite3 sequelize dotenv cors body-parser sequelize-typescript
+npm i --save-dev typescript @types/express @type/node nodemon ts-node @types/sequelize
+
+
+yarn add express sqlite3 sequelize dotenv cors body-parser sequelize-typescript
+yarn add typescript @types/express @type/node nodemon @types/sequelize ts-node -D
+
+
+MVC
+
+Modelo
+
+Vista
+
+Controlador
