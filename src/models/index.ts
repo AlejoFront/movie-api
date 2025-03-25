@@ -1,4 +1,4 @@
-import sequelize from 'config/database'
+import sequelize from '../config/database'
 import Movies from './Movies';
 import Actors from './Actors';
 import Genders from './Genders';

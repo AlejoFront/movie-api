@@ -6,7 +6,7 @@ import {
 } from 'sequelize-typescript';
 
 @Table
-export class Directors extends Model {
+class Directors extends Model {
     @Column({type: DataType.STRING, allowNull: false})
     name!: string; 
 }

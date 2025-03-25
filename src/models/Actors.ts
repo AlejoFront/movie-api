@@ -8,7 +8,7 @@ import {
 import Movies from './Movies';
 
 @Table
-export class Actors extends Model {
+class Actors extends Model {
     @Column({type: DataType.STRING, allowNull: false})
     name!: string;
 

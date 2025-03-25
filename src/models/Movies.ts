@@ -15,7 +15,7 @@ import {
 } from 'models';
 
 @Table
-export  class Movies extends Model {
+class Movies extends Model {
 
     @Column({type: DataType.STRING, allowNull: false})
     title!: string;

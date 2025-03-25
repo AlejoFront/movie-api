@@ -6,7 +6,7 @@ import {
 } from 'sequelize-typescript';
 
 @Table
-export class Genders extends Model {
+class Genders extends Model {
     @Column({type: DataType.STRING, allowNull: false, unique: true})
     name!: string; 
 }
